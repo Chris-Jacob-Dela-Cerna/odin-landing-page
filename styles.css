@@ -40,7 +40,13 @@ header {
 
 .hero {
   display: flex;
-
+  background-color: #1F2937;
+  .hero-text {
+    color: #ffffff;
+  }
+  img {
+    margin: 100px 0;
+  }
 }
 
 .projects {
