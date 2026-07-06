@@ -5,16 +5,30 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 
 
 header {
   display: flex;
-}
-
-.links {
-  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  p {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .links {
+    display: flex;
+    gap: 12px;
+    li {
+      list-style: none;
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 
@@ -26,6 +40,7 @@ header {
 
 .hero {
   display: flex;
+
 }
 
 .projects {
@@ -42,6 +57,8 @@ header {
 }
 
 .cta {
+  display: flex;
+  flex-direction: column;
   .box {
     display: flex;
   }
