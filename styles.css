@@ -15,8 +15,9 @@ header {
   justify-content: space-between;
   background-color: #1F2937;
   p {
-    color: #ffffff;
-    font-weight: bold;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
   }
   .links {
     display: flex;
@@ -24,7 +25,8 @@ header {
     li {
       list-style: none;
       a {
-        color: #ffffff;
+        color: #E5E7EB;
+        font-size: 18px;
         text-decoration: none;
       }
     }
@@ -41,17 +43,18 @@ header {
 .hero {
   display: flex;
   background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
   .hero-text {
     color: #ffffff;
-  }
-  img {
-    margin: 100px 0;
   }
 }
 
 .projects {
   display: flex;
   flex-direction: column;
+  align-items: center;
   .cards {
     display: flex;
   }
@@ -60,11 +63,24 @@ header {
 .quote {
   display: flex;
   flex-direction: column;
+  background-color: #E5E7EB;
+  .quote-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .source {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
 }
 
 .cta {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   .box {
     display: flex;
   }
@@ -75,4 +91,7 @@ header {
 footer {
   display: flex;
   flex-direction: column;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  align-items: center;
 }
