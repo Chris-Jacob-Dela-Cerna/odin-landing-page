@@ -1,0 +1,55 @@
+* {
+  font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+header {
+  display: flex;
+}
+
+.links {
+  display: flex;
+}
+
+
+
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  .cards {
+    display: flex;
+  }
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta {
+  .box {
+    display: flex;
+  }
+}
+
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
