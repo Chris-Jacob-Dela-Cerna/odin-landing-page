@@ -112,7 +112,7 @@ header {
         max-width: 150px;
         img {
           border: 3px solid #3882F6;
-          border-radius: 10px;
+          border-radius: 8px;
         }
         h3, p {
           margin: 0
@@ -131,7 +131,7 @@ header {
     flex-direction: column;
     margin: 0px 7vw;
     max-width: 700px;
-    padding: 48px 0px;
+    padding: 48px 0;
     .quote-text {
       color: #1F2937;
       font-size: 36px;
@@ -152,9 +152,25 @@ header {
   justify-content: center;
   .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    margin: 0px 9vw;
+    background-color: #3882F6;
+    border-radius: 8px;
+    gap: 82px;
+    margin: 48px 9vw;
+    max-width: 1000px;
+    padding: 32px 82px;
+    .cta-text {
+      h2 {
+        color: #F9FAF8;
+        font-size: 20px;
+        margin: 0 0 4px 0;
+      }
+      p {
+        color: #F9FAF8;
+        margin: 0;
+      }
+    }
   }
 }
 
