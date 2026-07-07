@@ -72,8 +72,8 @@ header {
         font-size: 18px;
         font-weight: 700;
         border: 0;
-        border-radius: 6px;
-        padding: 8px 24px;
+        border-radius: 8px;
+        padding: 8px 20px;
       }
     }
   }
@@ -119,20 +119,28 @@ header {
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #E5E7EB;
   .container {
     display: flex;
     flex-direction: column;
+    gap: 6px;
     margin: 0px 7vw;
+    padding: 48px;
+    max-width: 1000px;
     .quote-text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      color: #1F2937;
+      font-size: 36px;
+      font-weight: 300;
+      margin: 0;
     }
     .source {
-      display: flex;
-      flex-direction: column;
-      align-items: end;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+      padding-left: 90%;
     }
   }
 }
