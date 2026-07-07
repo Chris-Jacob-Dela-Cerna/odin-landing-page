@@ -25,7 +25,7 @@ header {
     }
     .links {
       display: flex;
-      gap: 12px;
+      gap: 32px;
       li {
         list-style: none;
         a {
@@ -56,7 +56,7 @@ header {
     justify-content: center;
     gap: 32px;
     margin: 0px 3vw;
-    padding: 64px 0px;
+    padding: 82px 0px;
     .hero-text {
       color: #ffffff;
       max-width: 500px;
@@ -91,7 +91,7 @@ header {
     gap: 32px;
     margin: 0px 5vw;
     max-width: 1000px;
-    padding: 32px 0px;
+    padding: 64px 0px;
     h2 {
       color: #1F2937;
       font-size: 36px;
@@ -131,7 +131,7 @@ header {
     flex-direction: column;
     margin: 0px 7vw;
     max-width: 700px;
-    padding: 48px 0;
+    padding: 82px 0;
     .quote-text {
       color: #1F2937;
       font-size: 36px;
@@ -156,8 +156,7 @@ header {
     align-items: center;
     background-color: #3882F6;
     border-radius: 8px;
-    gap: 82px;
-    margin: 48px 9vw;
+    margin: 64px 9vw;
     max-width: 1000px;
     padding: 32px 82px;
     .cta-text {
@@ -186,14 +185,5 @@ footer {
     gap: 8px;
     margin: 0px 3vw;
     padding: 12px;
-    p {
-      margin: 0;
-    }
   }
-}
-
-
-
-.container {
-  border: 1px solid red;
 }
