@@ -72,20 +72,6 @@ header {
         font-size: 18px;
         margin: 16px 0;
       }
-      a {
-        background-color: #f55d5d;
-        color: #E5E7EB;
-        cursor: pointer;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: 700;
-        border: 0;
-        border-radius: 8px;
-        padding: 8px 20px;
-      }
-      a:hover {
-        background-color: #732f2f;
-      }
     }
     img {
       border: 2px solid #8e5252;
@@ -188,20 +174,9 @@ header {
         margin: 0;
       }
     }
-    a {
-      background-color: #f55d5d;
-      color: #F9FAF8;
-      cursor: pointer;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 700;
+    a.button {
       border: 2px solid #F9FAF8;
-      border-radius: 8px;
-      padding: 8px 20px;
       margin: auto;
-    }
-    a:hover {
-      background-color: #732f2f;
     }
   }
 }
@@ -219,4 +194,23 @@ footer {
     margin: 0px 3vw;
     padding: 12px;
   }
+}
+
+
+
+.hero a.button,
+.cta a.button {
+  background-color: #f55d5d;
+  color: #F9FAF8;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.hero a.button:hover,
+.cta a.button:hover {
+  background-color: #732f2f;
 }
