@@ -1,8 +1,8 @@
-# odin-landing-page
+# Landing Page
 
-A personal landing page built as part of The Odin Project — my first project combining HTML and CSS into a complete, styled layout.
+My first project combining HTML and CSS into a complete, styled layout.
 
-🔗 **[Live site](https://chris-jacob-dela-cerna.github.io/odin-landing-page/)**
+🔗 **[Live site](https://chris-jacob-dela-cerna.github.io/landing-page/)**
 
 ---
 
